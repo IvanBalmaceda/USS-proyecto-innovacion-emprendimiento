@@ -26,12 +26,21 @@ BASE_DATA: dict[str, Any] = {
             "student_name": "Martín Soto",
             "course": "5° Básico B",
             "school": "Colegio Los Alerces",
+            # `gender` y `role_label` solo definen el avatar y el tratamiento
+            # con que se saluda a la persona. Ambos perfiles tienen las mismas
+            # funciones en el prototipo.
+            "gender": "f",
+            "role_label": "Apoderada",
+            "student_gender": "m",
         },
         "Estudiante": {
             "name": "Martín Soto",
             "student_name": "Martín Soto",
             "course": "5° Básico B",
             "school": "Colegio Los Alerces",
+            "gender": "m",
+            "role_label": "Estudiante",
+            "student_gender": "m",
         },
     },
     "subjects": [

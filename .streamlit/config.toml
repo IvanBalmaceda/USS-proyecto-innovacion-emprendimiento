@@ -1,9 +1,10 @@
 [server]
 headless = true
 
+# Paleta V2: azul como color principal, fondo claro y superficies blancas.
 [theme]
 base = "light"
-primaryColor = "#0f3d75"
-backgroundColor = "#f8fbff"
-secondaryBackgroundColor = "#e8f1ff"
-textColor = "#10233f"
+primaryColor = "#1D4ED8"
+backgroundColor = "#F5F7FB"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#0F172A"
